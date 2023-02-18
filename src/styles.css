@@ -1,0 +1,112 @@
+@import '/src/assets/css/inputs.css';
+@import '/src/assets/css/button.css';
+
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  /*background: url(./assets/img/banner.png) no-repeat center center fixed;*/
+  background-size: 1500px 700px;
+  height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:  #4D94E1;
+}
+
+.separador{
+  border-style: solid;
+  color: darkgoldenrod;
+  border-style: 2px;
+}
+
+.inicio{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.inicio a{
+    color: blue;
+    text-decoration: none;
+}
+
+.inicio a:hover{
+    text-decoration: underline;
+}
+
+input[type="checkbox"]{
+    position: absolute;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-left: -220px;
+    cursor: pointer;
+    width: 100%;
+    height: 15px;
+    border: 1px solid;
+    border-radius: 25px;
+    outline: none;
+}
+
+.brand img{
+    width: 60px;
+    height: 60px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 25px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 10px;
+    }
+  }
+
+.fondoApp{
+    margin: 0;
+    width: 100%;
+    height: 550px;
+    border-radius: 0px;
+    font-size: 18px;
+    position: absolute;
+    top: 10.3%;
+    padding: 1px 0px;
+}
+
+.pagePrincipal{
+    margin: 0;
+    position: absolute;
+    top: 41.75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1410px;
+    background: white;
+    border-radius: 10px;
+}
+
